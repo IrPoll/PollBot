@@ -20,9 +20,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lts start
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
-chmod +x launch.sh
+git clone https://github.com/IrPoll/PollBot.git
+cd PollBot
 ./launch.sh install
 ./launch.sh # Enter a Token 
 ```
