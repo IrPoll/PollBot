@@ -1,6 +1,6 @@
 <?php
 require_once 'PollBot.php';
-define('BOT_TOKEN', '135932930:AAFiFWjCvvdN0BwOYvaXt5oStodBFwEqc6I');
+define('BOT_TOKEN', 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
 define('BOT_WEBHOOK', 'https://bot.server/poll-bot-webhook.php');
 $bot = new PollBot(BOT_TOKEN, 'PollBotChat');
 if (php_sapi_name() == 'cli') {
